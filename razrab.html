@@ -13,6 +13,8 @@
             margin: 0;
             padding: 0;
         }
+
+
         
         .container {
             max-width: 900px;
@@ -149,6 +151,76 @@
             font-weight: normal;
             font-style: normal;
         }
+        @media (max-width: 768px) {
+    .container {
+        padding: 10px;
+        max-width: 100%;
+    }
+    
+    .minecraft-header {
+        padding: 20px 0;
+        margin-bottom: 20px;
+    }
+    
+    .minecraft-header h1 {
+        font-size: 2.2em;
+        letter-spacing: 2px;
+        text-shadow: 2px 2px 0 #1a1a1a, 3px 3px 0 #4CAF50;
+    }
+    
+    .navbar {
+        padding: 10px 0;
+        margin-bottom: 20px;
+    }
+    
+    .nav-list {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+    }
+    
+    .nav-item a {
+        font-size: 1em;
+        padding: 8px 12px;
+    }
+    
+    h2 {
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width: 480px) {
+    .minecraft-header h1 {
+        font-size: 1.8em;
+    }
+    
+    .nav-item a {
+        font-size: 0.9em;
+        padding: 6px 10px;
+    }
+}
+@media (max-width: 768px) {
+    .developer-card {
+        flex-direction: column;
+        text-align: center;
+        padding: 15px;
+    }
+    
+    .developer-avatar {
+        margin-right: 0;
+        margin-bottom: 15px;
+        width: 100px;
+        height: 100px;
+    }
+    
+    .developer-info h3 {
+        font-size: 1.4em;
+    }
+    
+    .history-section {
+        padding: 15px;
+    }
+}
     </style>
 </head>
 <body>
